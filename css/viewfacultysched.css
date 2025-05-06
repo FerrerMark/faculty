@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 1000px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.faculty-info {
+    background: #eef5ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

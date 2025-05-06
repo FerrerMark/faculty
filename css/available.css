@@ -1,0 +1,94 @@
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; position: relative; margin: unset;}
+        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .courses-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .courses-list label { padding: 6px 12px; background: #f0f0f0; border-radius: 5px; cursor: pointer; }
+        .courses-list input[type="checkbox"]:checked + label { background: #28a745; color: white; }
+        .courses-list input[type="checkbox"] { display: none; }
+        button { background: #0a2d53; color: white; padding: 10px; border: none; border-radius: 5px; width: 100%; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        h4 { color: #2c3e50; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 8px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #0a2d53; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .no-data { color: #666; font-style: italic; }
+        .delete-btn { background: #dc3545; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; }
+        .delete-btn:hover { background: #c82333; }
+        .cancel-btn { background: #ffc107; color: #212529; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; }
+        .cancel-btn:hover { background: #e0a800; }
+        .notification { background: #f8d7da; color: #721c24; padding: 10px; border: 1px solid #f5c6cb; border-radius: 5px; margin-bottom: 20px;   position: absolute; top: 0; right: 0;}
+        td{ color: #555;}
+        fieldset{ color: #555;}
+        h1{ color: #2c3e50; margin-top: unset;}
+        .toolbar {
+                background-color: #34495e;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 1rem;
+                border-radius: 6px;
+                padding: 0.5rem 13px;
+            }
+
+            .toolbar h3 {
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .toolbar-controls {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+            }
+
+            span.filter-item {
+                border-radius: 50%;
+            }
+
+            span.filter-title {
+                font-size: 14px;
+                color: white;
+            }
+            
+            .filter-section {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            .filter-items {
+                display: flex;
+                gap: 0.5rem;
+            }
+            .filter-item {
+                padding: 0.25rem 0.5rem;
+                cursor: pointer;
+                border-radius: 0.25rem;
+                background-color: #e2e8f0;
+            }
+            .filter-item.active {
+                background-color: #2563eb;
+                color: white;
+            }
+            .search-container {
+                display: flex;
+                align-items: center;
+            }
+            .search-box {
+                padding: 0.25rem 0.5rem;
+                border: 1px solid #d1d5db;
+                border-radius: 0.25rem;
+            }
+            .course-item {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                margin-bottom: 0.25rem;
+            }
+            .no-data {
+                text-align: center;
+                color: #6b7280;
+            }
+            span.filter-item.sem {
+                border-radius: 8px;
+            }
