@@ -16,7 +16,7 @@
             <div class="logo">
                 <img src="./assets/logo300.png" alt="University Logo">
             </div>
-            <h1>Faculty Login</h1>
+            <h1>Faculty Login Form</h1>
             <form action="" method="POST">
                 <label class="label" for="email">Username:</label>
                         <input type="text" id="email" name="email" required autocomplete="username"></input>
